@@ -1,0 +1,37 @@
+# Google OAuth client config and local secrets
+credentials.json
+client_secret*.json
+*token*.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local user state / backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.partial
+*.zip
+backups/
+logs/
+*.log
+
+# Packaging and IDE
+build/
+dist/
+*.spec
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
